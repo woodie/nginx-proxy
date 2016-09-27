@@ -10,5 +10,5 @@ update-dependencies:
 	docker pull docker:1.10
 
 test:
-	docker build -t jwilder/nginx-proxy:bats .
+	docker build -t woodie/nginx-proxy:bats .
 	bats test
